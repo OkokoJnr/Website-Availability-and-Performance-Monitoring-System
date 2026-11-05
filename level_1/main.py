@@ -131,7 +131,7 @@ def main():
         urls = args.urls
 
     else:
-        filepath = args.input or "./input/websites.txt"
+        filepath = args.input or "./input/site.txt"
         urls = read_urls(filepath)
 
     if not urls:
