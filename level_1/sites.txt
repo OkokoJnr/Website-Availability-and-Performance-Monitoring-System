@@ -1,0 +1,16 @@
+
+https://google.com
+https://github.com
+https://example.com
+
+
+https://httpbin.org/status/404
+https://httpbin.org/status/500
+https://httpbin.org/status/503
+
+
+https://nonexistent.invalid
+
+
+https://httpbin.org/redirect/1
+https://httpbin.org/redirect/3
