@@ -1,0 +1,11 @@
+timestamp,url,status,status_code,response_time_ms,attempts,redirect_target,error_type
+2026-11-06T12:14:39+01:00,https://httpbin.org/redirect/1,DOWN,200,2245.26,1,https://httpbin.org/get,RedirectNotAllowed
+2026-11-06T12:14:41+01:00,https://httpbin.org/redirect/3,DOWN,200,3787.61,1,https://httpbin.org/get,RedirectNotAllowed
+2026-11-06T12:14:45+01:00,https://httpbin.org/relative-redirect/2,DOWN,200,2664.84,1,https://httpbin.org/get,RedirectNotAllowed
+2026-11-06T12:14:54+01:00,https://nonexistent.invalid,DOWN,,1.85,4,,URLError
+2026-11-06T12:14:54+01:00,https://expired.badssl.com/,DOWN,,1879.86,1,,SSLError
+2026-11-06T12:15:10+01:00,https://httpbin.org/redirect/1,DOWN,200,2300.38,1,https://httpbin.org/get,RedirectNotAllowed
+2026-11-06T12:15:12+01:00,https://httpbin.org/redirect/3,DOWN,200,3990.24,1,https://httpbin.org/get,RedirectNotAllowed
+2026-11-06T12:15:16+01:00,https://httpbin.org/relative-redirect/2,DOWN,200,2862.92,1,https://httpbin.org/get,RedirectNotAllowed
+2026-11-06T12:15:25+01:00,https://nonexistent.invalid,DOWN,,2.62,4,,URLError
+2026-11-06T12:15:25+01:00,https://expired.badssl.com/,DOWN,,831.78,1,,SSLError
