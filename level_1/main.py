@@ -131,7 +131,11 @@ def main():
         urls = args.urls
 
     else:
+<<<<<<< HEAD
         filepath = args.input or "./input/site.txt"
+=======
+        filepath = args.input or "./input/sites.txt"
+>>>>>>> 5e9ab49 (GUI files)
         urls = read_urls(filepath)
 
     if not urls:
