@@ -5,5 +5,4 @@ https://httpbin.org/relative-redirect/2
 
 https://nonexistent.invalid
 
-
 https://expired.badssl.com/

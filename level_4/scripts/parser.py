@@ -21,7 +21,7 @@ def parse_arguments():
     parser.add_argument(
         "--retries",
         type=int,
-        default=3,
+        default=1,
         help="Number of additional attempts"
     )
 

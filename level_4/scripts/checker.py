@@ -44,6 +44,7 @@ def check_website(url, timeout, allow_redirects):
                 result["redirect_target"] = final_url
                 if allow_redirects:
                     result["status_code"] = 300
+                    result["status"] = "UP"
 
             # Only 2xx responses are successful.
             if 200 <= result["status_code"] < 300:

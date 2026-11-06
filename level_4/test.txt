@@ -1,21 +1,20 @@
+https://example.com https://httpbin.org/status/204 https://httpbin.org/status/301 https://httpbin.org/status/404 https://httpbin.org/status/500 
+
+
 # 1. Successful websites
-https://example.com
 https://httpbin.org/status/200
 
 # 2. Different HTTP status codes
-https://httpbin.org/status/204 
-https://httpbin.org/status/301 
-https://httpbin.org/status/404 
-https://httpbin.org/status/500 
 https://httpbin.org/status/503
 
 # 3. Redirects
 https://httpbin.org/redirect/1
 https://httpbin.org/redirect/3
 
+
+
 # 4. Response time and timeout
-https://httpbin.org/delay/2
-https://httpbin.org/delay/10
+https://httpbin.org/delay/2 https://httpbin.org/delay/10
 
 # 5. DNS errors
 https://nonexistent.invalid

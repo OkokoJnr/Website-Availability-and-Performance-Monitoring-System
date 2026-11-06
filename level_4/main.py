@@ -61,6 +61,7 @@ def main():
             worker_end_time = time.perf_counter()
 
             print(f"{args.workers} Workers took {worker_end_time - worker_start_time} to process {len(results)} Results")
+           
             # Display results
             print_results(results)
             print_summary(results)

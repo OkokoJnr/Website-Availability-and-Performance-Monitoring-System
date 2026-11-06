@@ -1,0 +1,6 @@
+url,status,status_code,response_time_ms,redirect_target,error_type
+https://example.com,UP,200,905.16,,
+https://httpbin.org/status/204,UP,204,954.87,,
+https://httpbin.org/status/301,UP,200,2218.36,https://httpbin.org/get,
+https://httpbin.org/status/404,DOWN,404,823.68,,HTTPError
+https://httpbin.org/status/500,DOWN,500,918.3,,HTTPError
