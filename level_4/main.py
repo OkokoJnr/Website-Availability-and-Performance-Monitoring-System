@@ -566,7 +566,7 @@ def parse_arguments():
     parser.add_argument(
         "--interval",
         type=int,
-        default=60,
+        default=5,
         help="Seconds between monitoring cycles"
     )
 
@@ -652,6 +652,7 @@ def main():
             print("=" * 60)
 
             # Check websites
+            worker_start_time = time.perf_counter()
             results = check_websites(
                 urls,
                 args.timeout,
@@ -660,6 +661,9 @@ def main():
                 args.workers
             )
 
+            worker_end_time = time.perf_counter()
+
+            print(f"{args.workers} Workers took {worker_end_time - worker_start_time} to process {len(results)} Results")
             # Display results
             print_results(results)
             print_summary(results)

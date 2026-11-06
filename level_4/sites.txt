@@ -1,21 +1,42 @@
+# 1. Successful websites
+https://example.com
+https://httpbin.org/status/200
 
-https://google.com
-https://github.com
+# 2. Different HTTP status codes
+https://httpbin.org/status/204 https://httpbin.org/status/301 https://httpbin.org/status/404 https://httpbin.org/status/500 https://httpbin.org/status/503
 
-
-https://httpbin.org/delay/1
-https://httpbin.org/delay/3
-https://httpbin.org/delay/10
-
-
-https://httpbin.org/status/404
-https://httpbin.org/status/500
-https://httpbin.org/status/503
-
-
+# 3. Redirects
 https://httpbin.org/redirect/1
 https://httpbin.org/redirect/3
-https://httpbin.org/relative-redirect/2
+
+# 4. Response time and timeout
+https://httpbin.org/delay/2
+https://httpbin.org/delay/10
+
+# 5. DNS errors
+https://nonexistent.invalid
+
+# 6. SSL errors
+https://expired.badssl.com/
+
+# 7. Intermittent failures
+https://httpbin.dev/unstable
+
+# 8. Redirect limit
+https://httpbin.dev/redirect/20
+
+
+
+https://google.com  https://github.com
+
+
+https://httpbin.org/delay/1 https://httpbin.org/delay/3 https://httpbin.org/delay/10
+
+
+https://httpbin.org/status/404  https://httpbin.org/status/500 https://httpbin.org/status/503
+
+
+https://httpbin.org/redirect/1 https://httpbin.org/redirect/3 https://httpbin.org/relative-redirect/2
 
 https://nonexistent.invalid
 
